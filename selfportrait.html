@@ -43,12 +43,131 @@
   </div> </nav>
 
 <div class="container-fluid mt-3">
-  <h4>2026-2027</h4>
   <h1> p5.js Selfie </h1>
-  <p>text about piece</p>  </div>
+  </div>
 
-<iframe src="spwindow/index.html" style="height:850px;width:850px;title="p5selfie"></iframe>
-
+<iframe src="spwindow/index.html" style="height:650px;width:650px;title="p5selfie"></iframe>
+<p></p> 
+<p> function setup() {
+<p></p> 
+createCanvas(600, 600);
+<p></p> 
+background('teal')
+}</p> 
+<p></p> 
+function draw() {
+<p></p> 
+angleMode(DEGREES);
+<p></p> 
+push();
+<p></p> 
+noStroke();
+<p></p> 
+fill('purple');
+<p></p> 
+ellipse(0, 600, 600, 600); //background circle back
+<p></p> 
+fill('teal');
+<p></p> 
+ellipse(0, 600, 360, 360); //background circle middle
+<p></p> 
+fill('purple');
+<p></p> 
+ellipse(0, 600, 180, 180); //background circle front
+<p></p> 
+rect(450, 0, 150, 360); //background rectangle back
+<p></p> 
+fill('teal');
+<p></p> 
+rect(510, -25, 150, 350); //background rectangle front
+<p></p> 
+fill ('burlywood');
+<p></p> 
+arc(160, 300, 200, 120, 90, 400);// left ear
+<p></p> 
+arc(440, 300, 200, 120, 140, 90); // right ear
+<p></p> 
+fill('white');
+<p></p> ellipse(135, 325, 48, 48); // left earring
+ellipse(465, 325, 48, 48); // right earring
+<p></p> 
+fill('teal');
+<p></p> 
+ellipse(135, 325, 22, 22); // left hole
+<p></p> 
+fill('purple');
+<p></p> 
+ellipse(465, 325, 22, 22); // right hole
+<p></p> 
+fill('#5C4033');
+<p></p> 
+rect(130, 175, 340, 425); // back hair
+<p></p> 
+fill ('burlywood');
+<p></p>  
+rect(250, 430, 100, 120);
+<p></p> 
+ellipse(300, 263, 340, 450); // head
+<p></p> 
+fill ('peru')
+<p></p> 
+triangle(300, 200, 275, 360, 323, 360); // nose
+<p></p> 
+pop();
+<p></p> 
+push();
+<p></p> 
+strokeWeight(3);
+<p></p> 
+line(270, 420, 330, 420); // mouth
+<p></p> 
+pop();
+<p></p> 
+push();
+<p></p> 
+noStroke();
+<p></p> 
+fill ('#5C4033');
+<p></p> 
+rect(195, 190, 70, 15);// left eyebrow
+<p></p> 
+rect(340, 190, 70, 15);// right eyebrow
+<p></p> 
+fill ('white');
+<p></p> 
+ellipse(230, 250, 80, 40); // left eye ball
+<p></p> 
+ellipse(370, 250, 80, 40); // right eye ball
+<p></p> 
+fill('#5C4033');
+<p></p> 
+ellipse(230, 250, 20, 25); // left pupil
+<p></p> 
+ellipse(370, 250, 20, 25); // right pupil
+<p></p> 
+fill('#5C4033');
+<p></p> 
+triangle(400, 20, 210, 45, 100, 150); // left and right spike
+<p></p> 
+triangle(185, 90, 210, 1, 235, 125); // left hair spike
+<p></p> 
+triangle(250, 85, 300, 15, 200, 85); // middle hair spike
+<p></p> 
+arc(300, 175, 340, 275, 180, 360); // hair
+<p></p> 
+fill('#2C1D0C');
+<p></p> 
+rect(130, 175, 30, 115); // left sideburn
+<p></p> 
+rect(440, 175, 30, 115); // right sideburn
+<p></p> 
+fill ('navy')
+<p></p> 
+rect(20, 520, 560, 80); // shirt 
+<p></p> 
+pop();<p></p> 
+} // end </p> 
+<p></p> 
 </div>
 
 </body>
